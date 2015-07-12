@@ -1,0 +1,62 @@
+/*
+ * Base structure
+ */
+
+@import url(//fonts.googleapis.com/css?family=Lato:300&subset=latin,latin-ext);
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+
+.navbar-fixed-top {
+    border: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.placeholders h4 {
+    margin-bottom: 0;
+}
+
+.placeholder {
+    margin-bottom: 20px;
+}
+
+.placeholder img {
+    display: inline-block;
+    border-radius: 50%;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.container{
+    padding-top:20px;
+}
