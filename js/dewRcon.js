@@ -12,6 +12,7 @@ StartRconConnection = function() {
     dewRcon.dewWebSocket.onopen = function() {
         //When we are connected do something
         jQuery("#connectionStatus").text('Connected!');
+        myCodeMirror.replaceRange('Connected to Eldewrito!', CodeMirror.Pos(myCodeMirror.lastLine()));
         dewRconConnected = true;
     };
     dewRcon.dewWebSocket.onerror = function() {
